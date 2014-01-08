@@ -1,0 +1,15 @@
+{
+    "name": "yii",
+    "description": "yii project",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-memcached": "*",
+        "ext-apc": "*",
+        "yiisoft/yii": "1.1.14",
+        "malyshev/yii-debug-toolbar": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}

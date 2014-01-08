@@ -1,3 +1,7 @@
-assets/
-protected/runtime/
-themes/classic/views/
+cms/web/assets/*
+cms/protected/runtime/
+cms/composer.phar
+cms/bin
+cms/vendor
+.settings
+.project
