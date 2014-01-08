@@ -22,6 +22,10 @@ return CMap::mergeArray(
                     */
                 ),
             ),
+            'db'=>array(
+                'enableProfiling' => true,
+                'enableParamLogging' => true,
+            ),
         ),
     )
 );

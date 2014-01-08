@@ -3,5 +3,6 @@ cms/protected/runtime/
 cms/composer.phar
 cms/bin
 cms/vendor
+cms/app/config/parameters.php
 .settings
 .project

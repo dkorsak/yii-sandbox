@@ -1,0 +1,10 @@
+<?php
+
+return array(
+    'database' => array(
+        'connectionString' => 'mysql:host=localhost;dbname=DATABASE_NAME',
+        'username' => 'DATABSE_USER',
+        'password' => 'DATABSE_PASSWORD',
+    ),
+    'params' => array()
+);
