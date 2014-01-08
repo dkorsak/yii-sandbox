@@ -3,12 +3,12 @@
 return CMap::mergeArray(
     require(ROOT_DIR . '/app/config/config.php'),
     array(
-        'components'=>array(
+        'components' => array(
             'urlManager' => array(
                 'showScriptName' => true,
             ),
-            'log'=>array(
-                'routes'=>array(
+            'log' => array(
+                'routes' => array(
                     array(
                         'class'=>'vendor.malyshev.yii-debug-toolbar.YiiDebugToolbarRoute',
                         // Access is restricted by default to the localhost
@@ -22,7 +22,7 @@ return CMap::mergeArray(
                     */
                 ),
             ),
-            'db'=>array(
+            'db' => array(
                 'enableProfiling' => true,
                 'enableParamLogging' => true,
             ),

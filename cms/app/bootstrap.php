@@ -7,7 +7,7 @@ if (file_exists(ROOT_DIR . '/vendor/autoload.php')) {
     require ROOT_DIR . '/vendor/autoload.php';
 }
 
-$yii = dirname(__FILE__).'/../vendor/yiisoft/yii/framework/yii.php';
+$yii = ROOT_DIR . '/vendor/yiisoft/yii/framework/yii.php';
 require_once($yii);
 
-Yii::setPathOfAlias('vendor', ROOT_DIR . '/vendor');    
+Yii::setPathOfAlias('vendor', ROOT_DIR . '/vendor');
