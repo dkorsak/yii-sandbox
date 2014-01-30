@@ -1,9 +1,8 @@
 {
-    "name": "yii",
-    "description": "yii project",
+    "name": "yii framework sandbox",
+    "description": "Yii framework sandbox",
     "require": {
         "php": ">=5.3.3",
-        "ext-memcached": "*",
         "ext-apc": "*",
         "yiisoft/yii": "1.1.14",
         "malyshev/yii-debug-toolbar": "dev-master"

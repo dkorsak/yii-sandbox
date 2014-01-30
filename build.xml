@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<project name="Yii Framework Base Project" default="help" basedir=".">
+    <target name="help" description="Display help">
+        <echo>
+  ###################### COMMANDS #########################################
+  
+  composer             - execute composer.phar (install vendors).
+
+  composerupdate       - execute composer.phar (update vendors).
+
+        </echo>
+    </target>
+    <import file="cms/build.xml"/>
+</project>
