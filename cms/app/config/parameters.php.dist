@@ -2,7 +2,7 @@
 
 return array(
     'database' => array(
-        'connectionString' => 'mysql:host=localhost;dbname=DATABASE_NAME',
+        'connectionString' => 'mysql:host=localhost;port=3306;dbname=DATABASE_NAME',
         'username' => 'DATABSE_USER',
         'password' => 'DATABSE_PASSWORD',
     ),

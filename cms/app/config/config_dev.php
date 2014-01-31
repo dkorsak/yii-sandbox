@@ -3,9 +3,16 @@
 return CMap::mergeArray(
     require(ROOT_DIR . '/app/config/config.php'),
     array(
+        'modules' => array(
+            'gii' => array(
+                'class' => 'system.gii.GiiModule',
+                'password' => 'admin'
+            ),
+        ),
         'components' => array(
             'urlManager' => array(
                 'showScriptName' => true,
+                'rules' => require(ROOT_DIR . '/app/config/routing_'.APPLICATION.'.php'),
             ),
             'log' => array(
                 'routes' => array(
@@ -26,6 +33,6 @@ return CMap::mergeArray(
                 'enableProfiling' => true,
                 'enableParamLogging' => true,
             ),
-        ),
+        )
     )
 );

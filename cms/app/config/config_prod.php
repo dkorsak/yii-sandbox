@@ -3,6 +3,10 @@
 return CMap::mergeArray(
     require(ROOT_DIR . '/app/config/config.php'),
     array(
-        // Put prod settings there.
+        'components' => array(
+            'urlManager' => array(
+                'rules' => require(ROOT_DIR . '/app/config/routing_'.APPLICATION.'.php'),
+            )
+        )
     )
 );

@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+ini_set('display_errors', true);
+error_reporting(-1);
+
+require __DIR__.'/bootstrap.php';
+
+$yiic = dirname(__FILE__).'/../vendor/yiisoft/yii/framework/yiic.php';
+$config = dirname(__FILE__).'/config/console.php';
+
+require_once($yiic);
+
